@@ -10,4 +10,4 @@ Google Play Theme
 
 ## Demo Page
 
-- Click [Here](....) to view Demo page
+- Click [Here](https://g-play.netlify.app/) to view Demo page
