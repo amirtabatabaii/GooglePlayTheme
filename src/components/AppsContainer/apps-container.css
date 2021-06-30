@@ -1,0 +1,43 @@
+section.apps-container{
+    margin: 1.5vh 0 5vh 0;
+    overflow: hidden;
+    padding: 0 1vw;
+}
+
+section.apps-container header.apps-container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.apps-container-header-div-left span{
+    font-size: .75rem;
+    color: var(--font-color-input);
+}
+
+.apps-container-header-div-right button{
+    border: 0;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    font-size: .75rem;
+    cursor: pointer;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+.apps-container-header-div-right button span:last-child{
+    font-size: .6rem;
+}
+
+div.apps{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    column-gap: 22px;
+}
